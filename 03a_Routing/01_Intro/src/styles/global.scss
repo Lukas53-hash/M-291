@@ -1,0 +1,43 @@
+body {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    margin: 30px;
+
+}
+
+h1{
+    color: #3d3935;
+}
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #3d3935;
+}
+
+#logo{
+    horiz-align: left;
+}
+
+.logo {
+    display: inline-block;
+    width: 100%;
+    max-width: 13vw;
+    padding-right: 5vw;
+    margin-left: 5vw;
+
+}
+
+#nav {
+    padding: 30px;
+}
+
+#nav a {
+    font-weight: bold;
+    color: #3d3935;
+}
+
+#nav a.router-link-exact-active {
+    color: #dc3545;
+}

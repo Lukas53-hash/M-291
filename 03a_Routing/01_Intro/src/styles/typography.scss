@@ -1,0 +1,27 @@
+
+$color-red: #da291c;
+$color-grey: #343a40;
+
+h1 {
+  margin-top: 60px;
+  text-align: center;
+  color: $color-grey;
+
+  + h2 {
+    text-align: center;
+    color: $color-red;
+  }
+}
+
+ul {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 30px;
+  border: 1px solid rgba(0,0,0,0.25);
+
+  > li {
+    color: $color-grey;
+    margin-bottom: 4px;
+  }
+}
